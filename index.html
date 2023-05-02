@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <!-- Formulário que será usado para enviar o nome da cidade para o servidor -->
+    <form action="/" method="post">
+      <label for="cityInput">City Name:</label>
+      <!-- O input onde o usuário irá digitar o nome da cidade -->
+      <input id="cityInput" type="text" name="cityName">
+      <!-- Botão que irá enviar a requisição ao servidor -->
+      <button type="submit" >Go</button>
+    </form>
+  </body>
+</html>
+
+<!-- o formulário é utilizado para permitir que o usuário digite
+o nome da cidade que deseja verificar a previsão do tempo.
+O formulário envia uma requisição POST para o servidor
+com o nome da cidade digitado no input.  -->
